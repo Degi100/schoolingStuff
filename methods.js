@@ -74,6 +74,7 @@ console.log(
   "********************************************************************************"
 );
 
+//.entries()
 //https://www.w3schools.com/jsref/jsref_entries.asp
 const entriesMethods = methodsArr.entries();
 for (let result of entriesMethods) {
@@ -84,6 +85,7 @@ console.log(
   "********************************************************************************"
 );
 
+//.fill()
 //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_fill2
 const fillMethods = methodsArr;
 fillMethods.fill("FILL!!!", 2, 25);
@@ -92,7 +94,3 @@ console.log(
   "********************************************************************************"
 );
 
-// https://docs.w3cub.com/javascript/global_objects/array/find
-
-const findMethods = methodsArr;
-findMethods.find();
