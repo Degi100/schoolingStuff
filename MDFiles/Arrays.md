@@ -18,15 +18,17 @@ empty.length               // => 0
 
 **Arrays und Objekte können andere Arrays und Objekte enthalten:**
 
-let points = [             // Ein Array mit 2 Elementen.
+***Ein Array mit 2 Elementen.***
+let points = [             	
 
-{x: 0, y: 0},          // Jedes Element ist ein Objekt.
+{x: 0, y: 0},   // Jedes Element ist ein Objekt.
 
 {x: 1, y: 1}
 
 ];
 
-let data = {                 // Ein Objekt mit 2 Eigenschaften.
+***Ein Objekt mit 2 Eigenschaften.***
+let data = {                 	
 
 trial1: [[1,2], [3,4]],  // Der Wert jeder Eigenschaft ist ein Array.
 

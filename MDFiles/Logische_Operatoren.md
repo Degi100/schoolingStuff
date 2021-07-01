@@ -20,7 +20,7 @@ x >= y                     // => false: größer als oder gleich.
 
 false === (x > y)          // => true: false ist gleich false.
 
-// Logische Operatoren kombinieren oder invertieren boolesche Werte:
+ **Logische Operatoren kombinieren oder invertieren boolesche Werte:**
 
 (x === 2) && (y === 3)     // => true: Beide Vergleiche sind wahr. && ist AND (UND).
 
