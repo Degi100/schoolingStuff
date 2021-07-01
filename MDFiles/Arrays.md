@@ -1,4 +1,4 @@
-// JavaScript unterstützt auch Arrays (numerisch indexierte Listen) mit Werten:
+**JavaScript unterstützt auch Arrays (numerisch indexierte Listen) mit Werten:**
 
 let primes = [2, 3, 5, 7]; // Ein Array mit 4 Werten, begrenzt durch [ und ].
 
@@ -10,15 +10,13 @@ primes[primes.length-1]    // => 7: Das letzte Element des Arrays.
 
 primes[4] = 9;             // Ein neues Element durch Zuweisen hinzufügen.
 
-primes[4] = 11;            // Oder ein vorhandenes Element durch Zuweisen
-
-// verändern.
+primes[4] = 11;            // Oder ein vorhandenes Element durch Zuweisen verändern.
 
 let empty = [];            // [] ist ein leeres Array ohne Elemente.
 
 empty.length               // => 0
 
-// Arrays und Objekte können andere Arrays und Objekte enthalten:
+**Arrays und Objekte können andere Arrays und Objekte enthalten:**
 
 let points = [             // Ein Array mit 2 Elementen.
 
