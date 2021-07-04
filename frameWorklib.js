@@ -81,6 +81,9 @@ for (frameWork of frameWorks) {
     : console.log(
         (FgRed =
           "\x1b[31m" +
-          `You never Used ${frameWork.title} from ${frameWork.web} ||${frameWork.info} || Ranking: ${frameWork.ranking}`)
+          `You never Used ${frameWork.title} from ${frameWork.web} || ${frameWork.info} || Ranking: ${frameWork.ranking}`)
       );
 }
+
+
+// https://codecoda.com/de/blog/entry/die-zehn-beliebtesten-javascript-frameworks-2020

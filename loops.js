@@ -1,5 +1,5 @@
 let counterA;
-for (let counterA = 0; counterA < 5; counterA += 1) {
+for (let counterA = 1; counterA < 6; counterA += 1) {
 	console.log(counterA);
 }
 
