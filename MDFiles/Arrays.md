@@ -36,3 +36,23 @@ trial2: [[2,3], [4,5]]   // Die Elemente der Arrays sind Arrays.
 
 };
 
+**forOf Schleife - Array (siehe auch Schleifen/ loops)**
+function sum(array) {      	// Berechnet die Summe der Elemente eines Arrays.
+
+let sum = 0;           		// Beginnt mit einer Anfangssumme von 0.
+
+for(let x of array) {  		// Schleife über das Array, wobei jedes Element x zugeordnet wird.
+
+sum += x;         		// Aktuellen Elementwert der Summe hinzufügen.
+
+}                 		 // Das Ende der for-Schleife.
+
+return sum;           		 // Die Summe zurückgeben.
+
+}
+
+sum(primes)            		 // => 28: Summe der ersten 5 Primzahlen 2+3+5+7+11.
+
+
+
+
