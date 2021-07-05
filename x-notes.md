@@ -1,5 +1,5 @@
 
-**NPM- Packages:**
+**Packages:**
 
 ***Diverse***
 https://www.npmjs.com/package/systeminformation
@@ -7,7 +7,11 @@ https://www.npmjs.com/package/systeminformation
 ***Gaming***
 https://kaboomjs.com/lib/0.5.0/kaboom.js
 
-***NodeJS Frameworks***
+***Modulation***
+https://lodash.com/
+https://www.npmjs.com/package/colors
+
+**JS- Frameworks**
 https://reactjs.org/
 https://nodejs.org/en/
 https://angularjs.org/
@@ -18,6 +22,3 @@ https://www.meteor.com/
 https://svelte.dev/
 https://emberjs.com/
 https://koajs.com/
-
-***Modulation***
-https://lodash.com/
