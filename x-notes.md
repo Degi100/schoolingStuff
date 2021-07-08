@@ -2,14 +2,15 @@
 **Packages:**
 
 ***Diverse***
-https://www.npmjs.com/package/systeminformation
+https://www.npmjs.com/
+https://storybook.js.org/
 
 ***Gaming***
-https://kaboomjs.com/lib/0.5.0/kaboom.js
+https://kaboomjs.com/
 
 ***Modulation***
 https://lodash.com/
-https://www.npmjs.com/package/colors
+https://www.npmjs.com/
 
 **JS- Frameworks**
 https://reactjs.org/

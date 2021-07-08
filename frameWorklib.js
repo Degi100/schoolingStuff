@@ -59,14 +59,14 @@ const frameWorks = [
     title: "EmberJS",
     info: "A framework for ambitious web developers.",
     web: "https://emberjs.com/",
-    ranking: "9",
+    ranking: 9,
     alreadyUsed: false,
   },
   {
     title: "Koa",
     info: "The next generation web framework for node.js",
     web: "https://koajs.com/",
-    ranking: "10,",
+    ranking: 10,
     alreadyUsed: false,
   },
 ];
