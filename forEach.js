@@ -1,4 +1,6 @@
-const sep = (arg) => console.log(`------${arg}------`);
+var colors = require('colors');
+
+const sep = (arg) => console.log(`------${arg}------`.bold.blue);
 
 sep("TV Channels");
 const tvChannels = ["ARD", "ZDF", "NDR", "Pro7", "RTL"];
@@ -22,3 +24,16 @@ cars.forEach((car) => {
 const thatsSucks = tvChannel => console.log(`${tvChannel} ist doof !!!`);
 
 tvChannels.forEach(thatsSucks);
+
+sep("English Words");
+
+const isEnglishWords = ['hello', 'world', 'topics', 'learn', 'choclate'];
+ isEnglishWords.forEach((word) => {
+   console.log(`${word} here we go`)
+ })
+
+sep("Drinks");
+const isDrinks = ['Orange Juice', 'Water', 'Apple Juice', ];
+isDrinks.forEach((drink) => {
+  console.log(`${drink} Hello Drinks`)
+})

@@ -85,5 +85,4 @@ for (frameWork of frameWorks) {
       );
 }
 
-
 // https://codecoda.com/de/blog/entry/die-zehn-beliebtesten-javascript-frameworks-2020

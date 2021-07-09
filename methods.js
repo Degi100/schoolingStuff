@@ -1,10 +1,10 @@
-console.log(
-  "********************************************************************************"
-);
+var colors = require('colors');
+
+const sep = (arg) => console.log(`------${arg}------`.bold.blue.bold.bgWhite);
 
 // .join() 
 // https://www.w3schools.com/jsref/jsref_join.asp
-
+sep('.join')
 console.log("");
 let methodsArr = [
   "concat", // done
@@ -43,11 +43,9 @@ let methodsArr = [
 ];
 joinMethods = methodsArr.join("(), ");
 
-console.log("\x1b[33m" + "METHODS.JOIN: " + joinMethods);
-console.log(
-  "********************************************************************************"
-);
+console.log(joinMethods.yellow);
 
+sep('.contact')
 //.concat() 
 // https://www.w3schools.com/jsref/jsref_concat_array.asp
 
@@ -58,39 +56,31 @@ concatMethods = methodsArr
   .concat(concatArr1, concatArr2, concatArr3)
   .join("(), ");
 
-console.log("\x1b[32m" + "METHODS.Concat: " + concatMethods);
-console.log(
-  "********************************************************************************"
-);
+console.log(concatMethods.magenta);
 
+sep('.copyWithin')
 //.copyWithin()
 // https://www.w3schools.com/jsref/jsref_copywithin.asp
 
 let copyWithinMethods = methodsArr;
 copyWithinMethods.copyWithin(1, 2);
 
-console.log("\x1b[33m" + "METHODS.copyWithin: " + copyWithinMethods);
-console.log(
-  "********************************************************************************"
-);
+console.log (copyWithinMethods);
 
+sep('.entries')
 //.entries()
 //https://www.w3schools.com/jsref/jsref_entries.asp
 const entriesMethods = methodsArr.entries();
 for (let result of entriesMethods) {
   // console.log(result)
-  console.log("\x1b[36m" + "METHODS.entries: " + result.join(". "));
-}
-console.log(
-  "********************************************************************************"
-);
+  console.log(result.join(". "));
+};
 
+sep('.fill')
 //.fill()
 //https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_fill2
 const fillMethods = methodsArr;
-fillMethods.fill("FILL!!!", 2, 25);
-console.log("\x1b[33m" + "METHODS.FILL: " + fillMethods);
-console.log(
-  "********************************************************************************"
-);
+fillMethods.fill("FILL!!!", 2, 15);
+console.log(fillMethods);
+sep()
 
